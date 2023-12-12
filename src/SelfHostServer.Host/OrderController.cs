@@ -8,9 +8,9 @@ namespace SelfHostServer.Host
     {
         Order[] orders = new Order[]
         {
-            new Order{Id=1,Name="pro1",Category="Grocery",Price=1},
-            new Order{Id=2,Name="Pro2",Category="Tosy",Price=3.75M},
-            new Order{Id=3,Name="Pro3",Category="Hardware",Price=16.99M}
+            new Order{Id=1,Name="Tomato",Category="Grocery",Price=1},
+            new Order{Id=2,Name="YoYo",Category="Tosy",Price=3.75M},
+            new Order{Id=3,Name="Hammer",Category="Hardware",Price=16.99M}
         };
 
         public IEnumerable<Order> GetAllOrders()
@@ -26,9 +26,9 @@ namespace SelfHostServer.Host
     {
         Product[] products = new Product[]
         {
-            new Product{Id=1,Name="Tomato"},
-            new Product{Id=2,Name="YoYo"},
-            new Product{Id=3,Name="Hammer"}
+            new Product{Id=1,Name="Pro1"},
+            new Product{Id=2,Name="Pro2"},
+            new Product{Id=3,Name="Pro3"}
         };
 
         [HttpGet]
